@@ -1,6 +1,8 @@
 agrona-manytooneringbuffer-example
 ===
 
+[![Build Status](https://travis-ci.org/gregwhitaker/agrona-manytooneringbuffer-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/agrona-manytooneringbuffer-example)
+
 This example shows you how to send fire-and-forget messages between applications using an [Agrona](https://github.com/real-logic/Agrona) ManyToOneRingBuffer.
 
 The example starts a consumer that receives messages sent from multiple producers at a set interval.
